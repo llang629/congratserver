@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <% include ../partials/head %>
+
 <body>
+
 <center>
 <h1><%- greeting %></h1>
 <%- tagline %><br>
-
 <br>
 <img src=<%- imageURL %>>
+
+<!-- random number of pixels to exercise load balancer -->
+<% random=Math.floor(Math.random()*5) %>
+<% for(var i=0; i<random; i++) {%>
+<img src=pixel.png>
+<% } %>
+
+
 <% include ../partials/footer %></body>
 </body>
 </html>
