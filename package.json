@@ -1,11 +1,11 @@
 {
   "name":               "congratserver",
   "main":               "./congratserver",
-  "description":        "CloudFoundry Hello World server in node",
+  "description":        "CloudFoundry congratulatory web server in node",
   "author":             "llang",
   "version":            "0.1.0",
-  "homepage":           "https://github.com/pmuellr/cf-node-hello",
-  "repository":         {"type": "git", "url": "git://github.com/pmuellr/cf-node-hello" },
+  "homepage":           "https://github.com/llang629/congratserver",
+  "repository":         {"type": "git", "url": "git://github.com/llang629/congratserver" },
   "dependencies":
     {
       "cfenv":          "1.0.x",
